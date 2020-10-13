@@ -20,7 +20,7 @@ namespace HSCTSV_1
             Application.SetCompatibleTextRenderingDefault(false);
 
             BonusSkins.Register();
-            Application.Run(new Login());
+            Application.Run(new Home());
         }
     }
 }

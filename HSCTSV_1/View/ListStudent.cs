@@ -84,9 +84,9 @@ namespace HSCTSV_1.View
                         userList.Add(objRes.HSStudentInfo);
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    MessageBox.Show("Error!");
+                    MessageBox.Show(exception);
                 }
                 gCtrListUser.DataSource = userList;
             }
